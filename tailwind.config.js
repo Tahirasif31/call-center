@@ -7,6 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      typography: {
+        "custom-after": {
+          "::after": {
+            content: '""',
+            display: "block",
+            width: "50px", // Adjust as needed
+            height: "10px", // Adjust as needed
+            background: "blue", // Example background color
+          },
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
