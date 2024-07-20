@@ -9,7 +9,7 @@ export default function Home() {
         Call to Pay Your <br className="block md:hidden" />
         Bill Now
       </h2>
-      <div className="flex items-center justify-center mt-16">
+      <div className="flex items-center justify-center mt-12">
         <button className="bg-red-700 text-[24px] text-white px-10 py-2 align-center font-sans font-[700]">
           (888) 265-5034
         </button>
