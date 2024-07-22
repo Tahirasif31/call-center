@@ -10,13 +10,19 @@ export default function Home() {
         Bill Now
       </h2>
       <div className="flex items-center justify-center mt-12">
-        <button className="bg-red-700 text-[24px] text-white px-10 py-2 align-center font-sans font-[700]">
+        <a
+          className="bg-red-700 text-[24px] text-white px-10 py-2 align-center font-sans font-[700]"
+          href="tel:18339430200"
+        >
           (888) 265-5034
-        </button>
+        </a>
       </div>
-      <div className="fixed bottom-0 w-full bg-[#272525] text-[20px] text-white py-4 text-center font-[700] font-sans tracking-wide">
+      <a
+        className="fixed bottom-0 w-full bg-[#272525] text-[20px] text-white py-4 text-center font-[700] font-sans tracking-wide"
+        href="tel:18339430200"
+      >
         CALL NOW
-      </div>
+      </a>
     </div>
   );
 }
